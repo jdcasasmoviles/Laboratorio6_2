@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Laboratorio 6.2</string>
+    <string name="action_settings">Settings</string>
+     <string name="info_text">Tu sei qui</string>
+</resources>

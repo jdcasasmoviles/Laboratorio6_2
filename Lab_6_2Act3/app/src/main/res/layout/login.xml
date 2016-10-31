@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_height="match_parent">
+    <TextView android:id="@+id/TextViewUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+    <EditText android:id="@+id/EditTextUsuario"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text" />
+    <TextView android:id="@+id/TextViewContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+    <EditText android:id="@+id/EditTextContraseña"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textPassword" />
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_login"
+            android:background="#cac5c5"
+            android:text="Login"
+            android:textSize="12dp"
+             />
+        <TextView android:id="@+id/mensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+

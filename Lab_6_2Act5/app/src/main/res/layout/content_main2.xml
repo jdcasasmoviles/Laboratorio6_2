@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#e7e2e2"
+    tools:context="com.jdcasas.lab_6_2act5.Main2Activity"
+    tools:showIn="@layout/activity_main2">
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forward Zoom"
+        android:id="@+id/forwardZoom"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:onClick="forwardZoom"
+        android:textSize="14dp">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="left"
+        android:id="@+id/left"
+        android:layout_below="@+id/forwardZoom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:onClick="left"
+        android:textSize="14dp">
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fade"
+        android:id="@+id/fade"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="fade"
+        android:textSize="14dp">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by Default"
+        android:id="@+id/byDefault"
+        android:layout_below="@+id/fade"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:onClick="byDefault"
+        android:textSize="14dp">
+    </Button>
+
+</RelativeLayout>
